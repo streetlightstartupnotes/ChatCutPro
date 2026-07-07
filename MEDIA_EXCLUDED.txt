@@ -1,0 +1,15 @@
+This handoff package intentionally excludes media files.
+
+Excluded from the current project copy:
+
+- Video: mp4, mov, m4v, avi, mkv, webm
+- Audio: wav, mp3, m4a, aac, flac, ogg
+- Images: png, jpg, jpeg, gif, webp, avif
+
+Original media remains in:
+
+/Users/ldtx/.clacky/chatcut_projects/574b7e43d5ab18c9
+
+The package is meant for development handoff, review, planning, and history preservation.
+It is not a self-contained renderable media archive.
+
