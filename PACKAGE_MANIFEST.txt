@@ -1,0 +1,108 @@
+ChatCutPro No-Media Handoff Package Manifest
+Generated: 2026-07-07 16:21:41 Asia/Shanghai
+
+Original sources:
+- Extension: /Users/ldtx/.clacky/ext/local/chatcut-editor
+- Project metadata: /Users/ldtx/.clacky/chatcut_projects/574b7e43d5ab18c9
+- Research: /Users/ldtx/.codex/attachments/7cc0bd51-9397-4cab-a7ab-41184e321f61/pasted-text.txt
+- Sessions: /Users/ldtx/.codex/sessions/2026/07/07/*.jsonl
+- Host layout: /Users/ldtx/.gem/ruby/2.6.0/gems/openclacky-1.3.7/lib/clacky/web/app.js app.css
+
+Excluded media extensions:
+mp4 mov m4v avi mkv webm wav mp3 m4a aac flac ogg png jpg jpeg gif webp avif
+
+Package size:
+ 61M	work/chatcutpro_handoff_no_media_20260707_162141
+
+Top-level sizes:
+4.0K	work/chatcutpro_handoff_no_media_20260707_162141/MEDIA_EXCLUDED.txt
+4.0K	work/chatcutpro_handoff_no_media_20260707_162141/PACKAGE_MANIFEST.txt
+4.0K	work/chatcutpro_handoff_no_media_20260707_162141/README.md
+ 20K	work/chatcutpro_handoff_no_media_20260707_162141/docs
+368K	work/chatcutpro_handoff_no_media_20260707_162141/host_openclacky_layout
+ 43M	work/chatcutpro_handoff_no_media_20260707_162141/projects
+ 52K	work/chatcutpro_handoff_no_media_20260707_162141/research
+ 17M	work/chatcutpro_handoff_no_media_20260707_162141/sessions
+340K	work/chatcutpro_handoff_no_media_20260707_162141/source
+
+Files:
+./MEDIA_EXCLUDED.txt
+./PACKAGE_MANIFEST.txt
+./README.md
+./docs/CHANGE_HISTORY.md
+./docs/IMPLEMENTATION_NOTES.md
+./docs/NEXT_STEPS.md
+./docs/OVERALL_PLAN.md
+./docs/SUMMARY.md
+./host_openclacky_layout/app.css
+./host_openclacky_layout/app.js
+./projects/574b7e43d5ab18c9/_transcribe.py
+./projects/574b7e43d5ab18c9/captions.ass
+./projects/574b7e43d5ab18c9/captions.srt
+./projects/574b7e43d5ab18c9/captions_styled.ass
+./projects/574b7e43d5ab18c9/cut_report.md
+./projects/574b7e43d5ab18c9/edit_decisions.json
+./projects/574b7e43d5ab18c9/export_bundle/bundle_manifest.json
+./projects/574b7e43d5ab18c9/export_bundle/captions.ass
+./projects/574b7e43d5ab18c9/export_bundle/captions.srt
+./projects/574b7e43d5ab18c9/export_bundle/captions_styled.ass
+./projects/574b7e43d5ab18c9/export_bundle/chatcut_export_bundle.zip
+./projects/574b7e43d5ab18c9/export_bundle/cut_report.md
+./projects/574b7e43d5ab18c9/export_bundle/edit_decisions.json
+./projects/574b7e43d5ab18c9/export_bundle/patches.json
+./projects/574b7e43d5ab18c9/export_bundle/project_meta.json
+./projects/574b7e43d5ab18c9/export_bundle/timeline.json
+./projects/574b7e43d5ab18c9/export_bundle/transcript.json
+./projects/574b7e43d5ab18c9/export_bundle/transcript.txt
+./projects/574b7e43d5ab18c9/exports/chatcut_export_bundle.zip
+./projects/574b7e43d5ab18c9/generated/hyperframes_lower_third_20260707_110519/index.html
+./projects/574b7e43d5ab18c9/generated/hyperframes_lower_third_20260707_110519/meta.json
+./projects/574b7e43d5ab18c9/generated/hyperframes_lower_third_20260707_154813.html
+./projects/574b7e43d5ab18c9/patches.json
+./projects/574b7e43d5ab18c9/project.json
+./projects/574b7e43d5ab18c9/timeline.json
+./projects/574b7e43d5ab18c9/transcript.json
+./projects/574b7e43d5ab18c9/transcript.txt
+./projects/574b7e43d5ab18c9/versions/v2_timeline.json
+./projects/574b7e43d5ab18c9/versions/v4_timeline.json
+./projects/574b7e43d5ab18c9/versions/v5_timeline.json
+./research/chatcut_research_discussion.txt
+./sessions/rollout-2026-07-07T10-28-42-019f3a68-003b-74f3-a814-58f39e07c4ff.jsonl
+./sessions/rollout-2026-07-07T12-29-54-019f3ad6-f82a-7570-b992-35fa80347df3.jsonl
+./source/chatcut-editor/agents/chatcut-agent/system_prompt.md
+./source/chatcut-editor/api/handler.rb
+./source/chatcut-editor/docs/AGENT_LOOP_DESIGN.md
+./source/chatcut-editor/docs/HANDOFF.md
+./source/chatcut-editor/docs/PROJECT_STATE_SCHEMA.json
+./source/chatcut-editor/docs/TIMELINE_PATCH_PROTOCOL.md
+./source/chatcut-editor/ext.yml
+./source/chatcut-editor/panels/editor/view.js
+./source/chatcut-editor/skills/audio-denoise/SKILL.md
+./source/chatcut-editor/skills/audio-music-generate/SKILL.md
+./source/chatcut-editor/skills/audio-normalize/SKILL.md
+./source/chatcut-editor/skills/audio-voiceover-generate/SKILL.md
+./source/chatcut-editor/skills/timeline-apply-patch/SKILL.md
+./source/chatcut-editor/skills/timeline-diff/SKILL.md
+./source/chatcut-editor/skills/timeline-rollback/SKILL.md
+./source/chatcut-editor/skills/timeline-save-version/SKILL.md
+./source/chatcut-editor/skills/video-batch-process/SKILL.md
+./source/chatcut-editor/skills/video-broll-generate/SKILL.md
+./source/chatcut-editor/skills/video-caption-generate/SKILL.md
+./source/chatcut-editor/skills/video-caption-style/SKILL.md
+./source/chatcut-editor/skills/video-edit-report/SKILL.md
+./source/chatcut-editor/skills/video-export-bundle/SKILL.md
+./source/chatcut-editor/skills/video-filler-cut/SKILL.md
+./source/chatcut-editor/skills/video-highlight-extract/SKILL.md
+./source/chatcut-editor/skills/video-master-prompt/SKILL.md
+./source/chatcut-editor/skills/video-motion-generate/SKILL.md
+./source/chatcut-editor/skills/video-platform-export/SKILL.md
+./source/chatcut-editor/skills/video-project-init/SKILL.md
+./source/chatcut-editor/skills/video-read-project/SKILL.md
+./source/chatcut-editor/skills/video-read-timeline/SKILL.md
+./source/chatcut-editor/skills/video-read-transcript/SKILL.md
+./source/chatcut-editor/skills/video-render-timeline/SKILL.md
+./source/chatcut-editor/skills/video-scene-detect/SKILL.md
+./source/chatcut-editor/skills/video-silence-cut/SKILL.md
+./source/chatcut-editor/skills/video-speaker-diarize/SKILL.md
+./source/chatcut-editor/skills/video-transcribe-align/SKILL.md
+./source/chatcut-editor/skills/web-extract-brand-assets/SKILL.md
