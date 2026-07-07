@@ -1,0 +1,44 @@
+{
+  "$schema": "chatcut-project-v1",
+  "version": "1.0",
+  "project": {
+    "id": "",
+    "name": "",
+    "created_at": "",
+    "updated_at": ""
+  },
+  "assets": {
+    "video": [],
+    "audio": [],
+    "image": [],
+    "generated": []
+  },
+  "media_index": {
+    "transcript": null,
+    "speakers": [],
+    "silences": [],
+    "fillers": [],
+    "scenes": [],
+    "keyframes": []
+  },
+  "timeline": {
+    "duration": 0,
+    "resolution": {"width": 1920, "height": 1080},
+    "fps": 30,
+    "tracks": [
+      {"id": "MG", "type": "motion_graphics", "clips": []},
+      {"id": "V2", "type": "video", "clips": []},
+      {"id": "V1", "type": "video", "clips": []},
+      {"id": "A1", "type": "audio", "clips": []},
+      {"id": "MUS", "type": "music", "clips": []},
+      {"id": "VO", "type": "voiceover", "clips": []},
+      {"id": "CAPTIONS", "type": "subtitle", "clips": []}
+    ]
+  },
+  "edit_decisions": [],
+  "versions": [],
+  "current_version": 0,
+  "export_settings": {
+    "platforms": []
+  }
+}
