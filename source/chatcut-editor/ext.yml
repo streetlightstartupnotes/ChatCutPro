@@ -1,0 +1,96 @@
+id: chatcut-editor
+name: ChatCutPro
+description: "自然语言驱动的视频剪辑 Agent 工作台。以 transcript 和 timeline 为状态中心，用 patch 模式修改真实多轨时间线，支持版本管理、回滚、HyperFrames 可编辑动效和多平台导出。"
+version: "0.2.0"
+author: ldtx
+origin: self
+contributes:
+  api: api/handler.rb
+  panels:
+    - id: editor
+      view: panels/editor/view.js
+      attach: ["chatcut-agent"]
+  agents:
+    - id: chatcut-agent
+      title: ChatCutPro 剪辑助手
+      prompt: agents/chatcut-agent/system_prompt.md
+      panels: [editor]
+      skills:
+        # Project Reader
+        - video-read-project
+        - video-read-transcript
+        - video-read-timeline
+        # Media Analyzer
+        - video-transcribe-align
+        - video-speaker-diarize
+        - video-silence-cut
+        - video-filler-cut
+        - video-scene-detect
+        - video-highlight-extract
+        # Timeline Patch
+        - timeline-apply-patch
+        - timeline-rollback
+        - timeline-save-version
+        - timeline-diff
+        # Caption
+        - video-caption-generate
+        - video-caption-style
+        # Audio
+        - audio-denoise
+        - audio-music-generate
+        - audio-voiceover-generate
+        - audio-normalize
+        # Motion Graphics
+        - video-motion-generate
+        - video-broll-generate
+        # Export
+        - video-render-timeline
+        - video-platform-export
+        - video-edit-report
+        - video-export-bundle
+        - video-batch-process
+        # Web
+        - web-extract-brand-assets
+        # Template
+        - video-master-prompt
+        # Legacy (mapped)
+        - video-project-init
+  skills:
+    # Project Reader Layer
+    - id: video-read-project
+    - id: video-read-transcript
+    - id: video-read-timeline
+    # Media Analyzer Layer
+    - id: video-project-init
+    - id: video-transcribe-align
+    - id: video-speaker-diarize
+    - id: video-silence-cut
+    - id: video-filler-cut
+    - id: video-scene-detect
+    - id: video-highlight-extract
+    # Timeline Patch Layer
+    - id: timeline-apply-patch
+    - id: timeline-rollback
+    - id: timeline-save-version
+    - id: timeline-diff
+    # Caption Layer
+    - id: video-caption-generate
+    - id: video-caption-style
+    # Audio Layer
+    - id: audio-denoise
+    - id: audio-music-generate
+    - id: audio-voiceover-generate
+    - id: audio-normalize
+    # Motion Graphics Layer
+    - id: video-motion-generate
+    - id: video-broll-generate
+    # Export Layer
+    - id: video-render-timeline
+    - id: video-platform-export
+    - id: video-edit-report
+    - id: video-export-bundle
+    - id: video-batch-process
+    # Web Layer
+    - id: web-extract-brand-assets
+    # Template Layer
+    - id: video-master-prompt
