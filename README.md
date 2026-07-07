@@ -13,6 +13,10 @@ ChatCutPro 是一个基于 OpenClacky 扩展的视频剪辑产品原型。它的
 
 ## 效果图
 
+![ChatCutPro 效果图 1](assets/screenshot-01.png)
+
+![ChatCutPro 效果图 2](assets/screenshot-02.png)
+
 从实际项目截图中可以看到：
 
 - 左侧字幕/Transcript 面板支持逐句选择、跳转和编辑
